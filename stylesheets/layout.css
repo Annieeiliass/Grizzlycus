@@ -8,6 +8,7 @@ body {
 .section-1 {
   display: flex;
   height: 61.7vw;
+  width: 100%;
   position: relative;
   justify-content: center;
   align-items: center;
@@ -16,6 +17,7 @@ body {
   background-image: url("../images/firstpic.svg");
   background-position: 0 0;
   background-repeat: no-repeat;
+  background-size: 200% 61.7vw;
 }
 .eyes {
   width: 38vw;
@@ -24,36 +26,23 @@ body {
   justify-content: space-between;
   padding-bottom: 20vw;
 }
-.eye-1 {
-  width: 9.5vw;
-  height: 9.5vw;
-  background-color: white;
-  border: 12px solid;
-  border-radius: 100%;
-  position: relative;
-}
+.eye-1,
 .eye-2 {
   width: 9.5vw;
   height: 9.5vw;
   background-color: white;
-  border: 12px solid;
+  border: 0.9vw solid black;
   border-radius: 100%;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.zrachok-1 {
-  width: 6.4vw;
-  height: 6.4vw;
-  background-color: black;
-  border: 10px solid;
-  border-radius: 100%;
-  position: absolute;
-  margin-top: 0.5vw;
-}
+
+.zrachok-1,
 .zrachok-2 {
-  width: 6.4vw;
-  height: 6.4vw;
+  width: 6.5vw;
+  height: 6.5vw;
   background-color: black;
-  border: 10px solid;
   border-radius: 100%;
   position: absolute;
   margin-top: 0.5vw;
@@ -82,42 +71,53 @@ body {
 
 .section-2 {
   display: flex;
-  height: 73.5vw;
-  position: relative;
-  justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
+  padding: 2vw 0;
   background-color: #00544b;
 }
-.circle {
-  background-image: url("../images/circle.svg");
-  width: 70.3vw;
-  height: 70.3vw;
-  justify-content: flex-end;
+.photos {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.photos > div {
+  width: 23.5vw;
+  height: 23.5vw;
+  background-size: contain;
 }
 .photo-1 {
   background-image: url("../images/photo-1.svg");
-  width: 23.5vw;
-  height: 23.5vw;
-  position: absolute;
-  left: 0; /* добавьте это */
 }
 .photo-2 {
   background-image: url("../images/photo-2.svg");
-  width: 23.5vw;
-  height: 23.5vw;
-  position: absolute;
-  justify-content: left;
 }
 .photo-3 {
   background-image: url("../images/photo-3.svg");
-  width: 23.5vw;
-  height: 23.5vw;
-  position: absolute;
-  justify-content: left;
 }
-/* не видно иконок медведей + обрезается колесо*/
+.circle-container {
+  width: calc(100% - 23.5vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backofcircle {
+  background-image: url("../images/backofcircle.svg");
+  width: 70.3vw;
+  height: 70.3vw;
+  background-size: contain;
+}
+.circle {
+  background-image: url("../images/circle.svg");
+  width: 60.3vw;
+  height: 60.3vw;
+  background-size: contain;
+}
+.shtuka {
+  background-image: url("../images/shtuka.svg");
+  background-size: contain;
+  width: 3.5vw;
+  height: 5.8vw;
+}
 
 .section-3 {
   display: flex;
@@ -132,27 +132,41 @@ body {
 .text {
   display: flex;
   height: 61.7vw;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.text > p {
+  font-family: "SF-Pro-Display-Black";
+  color: #00544b;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  line-height: 80%;
 }
 .U {
-  font-family: "SF-Pro-Display-Black";
-  font-style: normal;
-  font-weight: 700;
-  color: #00544b;
-  font-size: 27vw;
-  justify-content: center;
-  align-items: flex-start;
+  font-size: 26vw;
 }
 .V {
-  font-family: "SF-Pro-Display-Black";
-  font-style: normal;
-  font-weight: 700;
-  color: #00544b;
-  font-size: 24vw;
-  align-items: flex-start;
-  flex-direction: column;
+  font-size: 14.4vw;
+}
+.bear15 {
+  background-image: url("../images/bear15.svg");
+  background-size: contain;
+  width: 9.2vw;
+  height: 10vw;
+}
+.bear30 {
+  background-image: url("../images/bear30.svg");
+  background-size: contain;
+  width: 9.6vw;
+  height: 13vw;
+}
+.bear150 {
+  background-image: url("../images/bear150.svg");
+  background-size: contain;
+  width: 9.3vw;
+  height: 12.6vw;
 }
 
 .section-4 {
@@ -164,9 +178,35 @@ body {
   background-repeat: no-repeat;
   align-content: flex-start;
 }
-.halfofcircle {
+.column-1 .halfofcircle {
   background-image: url("../images/halfofcircle.svg");
-  position: relative;
+  background-size: contain;
+  width: 19.5vw;
+  height: 36.4vw;
   align-items: flex-start;
   justify-content: flex-start;
+}
+.oblako {
+  background-image: url("../images/oblako.svg");
+  background-size: contain;
+  width: 39vw;
+  height: 36.4vw;
+}
+.column-2 .uno {
+  background-image: url("../images/uno.svg");
+  background-size: contain;
+  width: 41.3vw;
+  height: 56.7vw;
+}
+.strelki {
+  background-image: url("../images/strelki.svg");
+  background-size: contain;
+  width: 25.2vw;
+  height: 30.9vw;
+}
+.bulavi {
+  background-image: url("../images/bulavi.svg");
+  background-size: contain;
+  width: 58.4vw;
+  height: 20.2vw;
 }
