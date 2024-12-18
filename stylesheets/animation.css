@@ -28,3 +28,32 @@
   }
 }
 /* не работает анимация зрачков */
+
+.bear:nth-of-type(1) {
+  animation: bearFall1 6s ease 1 forwards;
+  left: 20vw;
+}
+@keyframes bearFall1 {
+  0% {
+    top: -10vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 10vw);
+    transform: rotate(270deg);
+  }
+}
+.bear:nth-of-type(2) {
+  animation: bearFall2 6s ease 1 forwards 4s;
+  left: 10vw;
+}
+@keyframes bearFall2 {
+  0% {
+    top: -10vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 10vw);
+    transform: rotate(-500deg);
+  }
+}

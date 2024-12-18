@@ -96,6 +96,12 @@ body {
 }
 .circle-container {
   width: calc(100% - 23.5vw);
+  position: relative;
+}
+.circle-container,
+.backofcircle,
+.circle,
+.uno {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,6 +123,13 @@ body {
   background-size: contain;
   width: 3.5vw;
   height: 5.8vw;
+}
+.centerofcircle {
+  background-image: url("../images/centerofcircle.svg");
+  background-size: contain;
+  width: 9.7vw;
+  height: 9.7vw;
+  display: flex;
 }
 
 .section-3 {
@@ -150,41 +163,36 @@ body {
 .V {
   font-size: 14.4vw;
 }
-.bear15 {
+.bears {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+.bear {
   background-image: url("../images/bear15.svg");
   background-size: contain;
   width: 9.2vw;
   height: 10vw;
-}
-.bear30 {
-  background-image: url("../images/bear30.svg");
-  background-size: contain;
-  width: 9.6vw;
-  height: 13vw;
-}
-.bear150 {
-  background-image: url("../images/bear150.svg");
-  background-size: contain;
-  width: 9.3vw;
-  height: 12.6vw;
+  position: absolute;
+  top: -10vw;
+  left: 0;
 }
 
 .section-4 {
   display: flex;
   height: 56.2vw;
-  margin: 0;
-  padding: 0;
   background-position: 0 0;
   background-repeat: no-repeat;
-  align-content: flex-start;
+}
+.column-1-row {
+  display: flex;
 }
 .column-1 .halfofcircle {
   background-image: url("../images/halfofcircle.svg");
   background-size: contain;
   width: 19.5vw;
   height: 36.4vw;
-  align-items: flex-start;
-  justify-content: flex-start;
 }
 .oblako {
   background-image: url("../images/oblako.svg");
