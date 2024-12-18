@@ -1,1 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  margin: 0;
+}
+.section-1 {
+  display: flex;
+  height: 61.7vw;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/firstpic.svg");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.eyes {
+  width: 38vw;
+  height: 9.6vw;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20vw;
+}
+.eye-1 {
+  width: 9.5vw;
+  height: 9.5vw;
+  background-color: white;
+  border: 12px solid;
+  border-radius: 100%;
+  position: relative;
+}
+.eye-2 {
+  width: 9.5vw;
+  height: 9.5vw;
+  background-color: white;
+  border: 12px solid;
+  border-radius: 100%;
+  position: relative;
+}
+.zrachok-1 {
+  width: 6.4vw;
+  height: 6.4vw;
+  background-color: black;
+  border: 10px solid;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 0.5vw;
+}
+.zrachok-2 {
+  width: 6.4vw;
+  height: 6.4vw;
+  background-color: black;
+  border: 10px solid;
+  border-radius: 100%;
+  position: absolute;
+  margin-top: 0.5vw;
+}
+.BC {
+  font-family: "anastasiascriptc";
+  font-style: normal;
+  font-weight: 500;
+  color: #f20309;
+  font-size: 10vw;
+  position: absolute;
+  justify-content: center;
+  margin-top: 33vw;
+  margin-left: -5vw;
+}
+.G {
+  font-family: "ABCGintoNord";
+  font-style: normal;
+  font-weight: 700;
+  color: #00544b;
+  font-size: 10.5vw;
+  position: absolute;
+  justify-content: center;
+  margin-top: 50vw;
+}
 
+.section-2 {
+  display: flex;
+  height: 73.5vw;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #00544b;
+}
+.circle {
+  background-image: url("../images/circle.svg");
+  width: 70.3vw;
+  height: 70.3vw;
+  justify-content: flex-end;
+}
+.photo-1 {
+  background-image: url("../images/photo-1.svg");
+  width: 23.5vw;
+  height: 23.5vw;
+  position: absolute;
+  left: 0; /* добавьте это */
+}
+.photo-2 {
+  background-image: url("../images/photo-2.svg");
+  width: 23.5vw;
+  height: 23.5vw;
+  position: absolute;
+  justify-content: left;
+}
+.photo-3 {
+  background-image: url("../images/photo-3.svg");
+  width: 23.5vw;
+  height: 23.5vw;
+  position: absolute;
+  justify-content: left;
+}
+/* не видно иконок медведей + обрезается колесо*/
+
+.section-3 {
+  display: flex;
+  height: 61.7vw;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #e76bc8;
+}
+.text {
+  display: flex;
+  height: 61.7vw;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.U {
+  font-family: "SF-Pro-Display-Black";
+  font-style: normal;
+  font-weight: 700;
+  color: #00544b;
+  font-size: 27vw;
+  justify-content: center;
+  align-items: flex-start;
+}
+.V {
+  font-family: "SF-Pro-Display-Black";
+  font-style: normal;
+  font-weight: 700;
+  color: #00544b;
+  font-size: 24vw;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.section-4 {
+  display: flex;
+  height: 56.2vw;
+  margin: 0;
+  padding: 0;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  align-content: flex-start;
+}
+.halfofcircle {
+  background-image: url("../images/halfofcircle.svg");
+  position: relative;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

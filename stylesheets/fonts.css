@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "SF-Pro-Display-Black";
+  src: url(../fonts/SF-Pro-Display-Black.otf) format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "anastasiascriptc";
+  src: url(../fonts/anastasiascriptc.otf) format("opentype");
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "ABCGintoNord";
+  src: url(../fonts/ABCGintoNord-Ultra-Trial-BF651b7b783d44c.otf)
+    format("opentype");
+  font-style: normal;
+  font-weight: 700;
+}
