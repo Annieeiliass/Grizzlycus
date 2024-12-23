@@ -29,17 +29,34 @@
   }
 }
 
+.photo-1:hover {
+  transition: all 0.1s ease-in;
+  background-image: url("../images/photo-1\(2\).svg");
+}
+.photo-2:hover {
+  transition: all 0.1s ease-in;
+  background-image: url("../images/photo-2\(2\).svg");
+}
+.photo-3:hover {
+  transition: all 0.1s ease-in;
+  background-image: url("../images/photo-3\(2\).svg");
+}
+.circle-container:hover .circle {
+  transform: rotate(2160deg);
+  transition: all 5s ease;
+}
+
 .bear:nth-of-type(1) {
   animation: bearFall1 6s ease 1 forwards;
   left: 20vw;
 }
 @keyframes bearFall1 {
   0% {
-    top: -10vw;
+    top: -12vw;
     transform: rotate(0);
   }
   100% {
-    top: calc(100% - 10vw);
+    top: calc(100% - 12vw);
     transform: rotate(270deg);
   }
 }
@@ -49,58 +66,673 @@
 }
 @keyframes bearFall2 {
   0% {
-    top: -10vw;
+    top: -12vw;
     transform: rotate(0);
   }
   100% {
-    top: calc(100% - 10vw);
+    top: calc(100% - 12vw);
     transform: rotate(-500deg);
   }
 }
 .bear:nth-of-type(3) {
   animation: bearFall3 6s ease 1 forwards 3s;
-  left: 15vw;
+  left: 1vw;
 }
 @keyframes bearFall3 {
   0% {
-    top: -10vw;
+    top: -12vw;
     transform: rotate(0);
   }
   100% {
-    top: calc(100% - 10vw);
+    top: calc(100% - 13vw);
     transform: rotate(350deg);
-    margin-bottom: 10%;
   }
 }
 .bear:nth-of-type(4) {
-  animation: bearFall4 6s ease 1 forwards 1s;
+  animation: bearFall4 6s ease 1 forwards 4s;
   left: 10vw;
 }
 @keyframes bearFall4 {
   0% {
-    top: -10vw;
+    top: -12vw;
     transform: rotate(0);
   }
   100% {
-    top: calc(100% - 10vw);
+    top: calc(100% - 22vw);
     transform: rotate(620deg);
   }
 }
 .bear:nth-of-type(5) {
-  animation: bearFall5 6s ease 1 forwards 5s;
+  animation: bearFall5 6s ease 1 forwards 6s;
   left: 10vw;
 }
 @keyframes bearFall5 {
   0% {
-    top: -10vw;
+    top: -12vw;
     transform: rotate(0);
   }
   100% {
-    top: calc(100% - 10vw);
+    top: calc(100% - 30vw);
     transform: rotate(120deg);
-    bottom: calc(100%-20vw);
   }
 }
+.bear:nth-of-type(6) {
+  animation: bearFall6 6s ease 1 forwards 8s;
+  left: 1vw;
+}
+@keyframes bearFall6 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(90deg);
+  }
+}
+.bear:nth-of-type(7) {
+  animation: bearFall7 6s ease 1 forwards 10s;
+  left: 1vw;
+}
+@keyframes bearFall7 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 31vw);
+    transform: rotate(240deg);
+  }
+}
+.bear:nth-of-type(8) {
+  animation: bearFall8 6s ease 1 forwards 12s;
+  left: 3vw;
+}
+@keyframes bearFall8 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 40vw);
+    transform: rotate(320deg);
+  }
+}
+.bear:nth-of-type(9) {
+  animation: bearFall9 6s ease 1 forwards 14s;
+  left: -6vw;
+}
+@keyframes bearFall9 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 38vw);
+    transform: rotate(410deg);
+  }
+}
+.bear:nth-of-type(10) {
+  animation: bearFall10 6s ease 1 forwards 47s;
+  left: 3vw;
+}
+@keyframes bearFall10 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 50vw);
+    transform: rotate(200deg);
+  }
+}
+.bear:nth-of-type(11) {
+  animation: bearFall11 4s ease 1 forwards 60s;
+  left: -4vw;
+}
+@keyframes bearFall11 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 51vw);
+    transform: rotate(360deg);
+  }
+}
+.bear:nth-of-type(12) {
+  animation: bearFall12 4s ease 1 forwards 63s;
+  left: -4vw;
+}
+@keyframes bearFall12 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 60vw);
+    transform: rotate(490deg);
+  }
+}
+.bear:nth-of-type(13) {
+  animation: bearFall13 0.5s ease 1 forwards 66s;
+  left: -4vw;
+}
+@keyframes bearFall13 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 70vw);
+    transform: rotate(490deg);
+  }
+}
+.bear:nth-of-type(14) {
+  animation: bearFall14 6s ease 1 forwards 4s;
+  left: 30vw;
+}
+@keyframes bearFall14 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 12vw);
+    transform: rotate(-500deg);
+  }
+}
+.bear:nth-of-type(15) {
+  animation: bearFall15 6s ease 1 forwards 7s;
+  left: 40vw;
+}
+@keyframes bearFall15 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 12vw);
+    transform: rotate(-300deg);
+  }
+}
+.bear:nth-of-type(16) {
+  animation: bearFall16 6s ease 1 forwards 9s;
+  left: 80vw;
+}
+@keyframes bearFall16 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 12vw);
+    transform: rotate(-260deg);
+  }
+}
+.bear:nth-of-type(17) {
+  animation: bearFall17 6s ease 1 forwards 11s;
+  left: 50vw;
+}
+@keyframes bearFall17 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 12vw);
+    transform: rotate(-560deg);
+  }
+}
+.bear:nth-of-type(18) {
+  animation: bearFall18 6s ease 1 forwards 18s;
+  left: 45vw;
+}
+@keyframes bearFall18 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-420deg);
+  }
+}
+.bear:nth-of-type(18) {
+  animation: bearFall18 6s ease 1 forwards 15s;
+  left: 45vw;
+}
+@keyframes bearFall18 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-210deg);
+  }
+}
+.bear:nth-of-type(19) {
+  animation: bearFall19 6s ease 1 forwards 18s;
+  left: 70vw;
+}
+@keyframes bearFall19 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 12vw);
+    transform: rotate(-600deg);
+  }
+}
+.bear:nth-of-type(20) {
+  animation: bearFall20 6s ease 1 forwards 28s;
+  left: 60vw;
+}
+@keyframes bearFall20 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 12vw);
+    transform: rotate(-480deg);
+  }
+}
+.bear:nth-of-type(21) {
+  animation: bearFall21 6s ease 1 forwards 19s;
+  left: 65vw;
+}
+@keyframes bearFall21 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-80deg);
+  }
+}
+.bear:nth-of-type(21) {
+  animation: bearFall22 6s ease 1 forwards 22s;
+  left: 90vw;
+}
+@keyframes bearFall22 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 12vw);
+    transform: rotate(-60deg);
+  }
+}
+.bear:nth-of-type(23) {
+  animation: bearFall23 6s ease 1 forwards 29s;
+  left: 90vw;
+}
+@keyframes bearFall23 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-900deg);
+  }
+}
+.bear:nth-of-type(24) {
+  animation: bearFall24 6s ease 1 forwards 40s;
+  left: 90vw;
+}
+@keyframes bearFall24 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 32vw);
+    transform: rotate(-160deg);
+  }
+}
+.bear:nth-of-type(25) {
+  animation: bearFall25 6s ease 1 forwards 29s;
+  left: 35vw;
+}
+@keyframes bearFall25 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-280deg);
+  }
+}
+.bear:nth-of-type(26) {
+  animation: bearFall26 6s ease 1 forwards 29s;
+  left: 35vw;
+}
+@keyframes bearFall26 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-280deg);
+  }
+}
+.bear:nth-of-type(27) {
+  animation: bearFall27 6s ease 1 forwards 20s;
+  left: 25vw;
+}
+@keyframes bearFall27 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-580deg);
+  }
+}
+.bear:nth-of-type(28) {
+  animation: bearFall28 6s ease 1 forwards 24s;
+  left: 65vw;
+}
+@keyframes bearFall28 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-380deg);
+  }
+}
+.bear:nth-of-type(29) {
+  animation: bearFall29 6s ease 1 forwards 38s;
+  left: 75vw;
+}
+@keyframes bearFall29 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-980deg);
+  }
+}
+.bear:nth-of-type(30) {
+  animation: bearFall30 6s ease 1 forwards 26s;
+  left: 55vw;
+}
+@keyframes bearFall30 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-180deg);
+  }
+}
+.bear:nth-of-type(31) {
+  animation: bearFall31 6s ease 1 forwards 36s;
+  left: 55vw;
+}
+@keyframes bearFall31 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 32vw);
+    transform: rotate(-380deg);
+  }
+}
+.bear:nth-of-type(32) {
+  animation: bearFall32 6s ease 1 forwards 40s;
+  left: 85vw;
+}
+@keyframes bearFall32 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 22vw);
+    transform: rotate(-310deg);
+  }
+}
+.bear:nth-of-type(33) {
+  animation: bearFall33 6s ease 1 forwards 33s;
+  left: 60vw;
+}
+@keyframes bearFall33 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 32vw);
+    transform: rotate(-110deg);
+  }
+}
+.bear:nth-of-type(34) {
+  animation: bearFall34 6s ease 1 forwards 33s;
+  left: 60vw;
+}
+@keyframes bearFall34 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 42vw);
+    transform: rotate(-520deg);
+  }
+}
+.bear:nth-of-type(35) {
+  animation: bearFall35 6s ease 1 forwards 36s;
+  left: 48vw;
+}
+@keyframes bearFall35 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 42vw);
+    transform: rotate(-220deg);
+  }
+}
+.bear:nth-of-type(35) {
+  animation: bearFall35 6s ease 1 forwards 46s;
+  left: 38vw;
+}
+@keyframes bearFall35 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 42vw);
+    transform: rotate(-420deg);
+  }
+}
+.bear:nth-of-type(36) {
+  animation: bearFall36 6s ease 1 forwards 49s;
+  left: 48vw;
+}
+@keyframes bearFall36 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 32vw);
+    transform: rotate(-120deg);
+  }
+}
+.bear:nth-of-type(37) {
+  animation: bearFall37 6s ease 1 forwards 44s;
+  left: 28vw;
+}
+@keyframes bearFall37 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 32vw);
+    transform: rotate(-820deg);
+  }
+}
+.bear:nth-of-type(38) {
+  animation: bearFall38 6s ease 1 forwards 42s;
+  left: 38vw;
+}
+@keyframes bearFall38 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 32vw);
+    transform: rotate(-410deg);
+  }
+}
+.bear:nth-of-type(39) {
+  animation: bearFall39 6s ease 1 forwards 38s;
+  left: 18vw;
+}
+@keyframes bearFall39 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 32vw);
+    transform: rotate(-120deg);
+  }
+}
+.bear:nth-of-type(40) {
+  animation: bearFall40 6s ease 1 forwards 39s;
+  left: 18vw;
+}
+@keyframes bearFall40 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 40vw);
+    transform: rotate(-190deg);
+  }
+}
+.bear:nth-of-type(41) {
+  animation: bearFall41 6s ease 1 forwards 44s;
+  left: 48vw;
+}
+@keyframes bearFall41 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 40vw);
+    transform: rotate(-190deg);
+  }
+}
+.bear:nth-of-type(42) {
+  animation: bearFall42 6s ease 1 forwards 51s;
+  left: 68vw;
+}
+@keyframes bearFall42 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 40vw);
+    transform: rotate(-790deg);
+  }
+}
+.bear:nth-of-type(43) {
+  animation: bearFall43 6s ease 1 forwards 57s;
+  left: 88vw;
+}
+@keyframes bearFall43 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 40vw);
+    transform: rotate(-790deg);
+  }
+}
+.bear:nth-of-type(44) {
+  animation: bearFall44 6s ease 1 forwards 60s;
+  left: 98vw;
+}
+@keyframes bearFall44 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 40vw);
+    transform: rotate(-120deg);
+  }
+}
+.bear:nth-of-type(45) {
+  animation: bearFall45 6s ease 1 forwards 62s;
+  left: 108vw;
+}
+@keyframes bearFall45 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 40vw);
+    transform: rotate(-720deg);
+  }
+}
+.bear:nth-of-type(46) {
+  animation: bearFall46 6s ease 1 forwards 64s;
+  left: 18vw;
+}
+@keyframes bearFall46 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 50vw);
+    transform: rotate(-670deg);
+  }
+}
+.bear:nth-of-type(47) {
+  animation: bearFall47 6s ease 1 forwards 66s;
+  left: 28vw;
+}
+@keyframes bearFall47 {
+  0% {
+    top: -12vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 50vw);
+    transform: rotate(-110deg);
+  }
+}
+
 .halfofcircle {
   animation: halfofcircle 1.5s steps(1) infinite;
 }
@@ -133,42 +765,16 @@
     background-position: -312vw top;
   }
 }
-.oblako {
-  animation: oblako 120s ease-in infinite;
-}
-.oblako:hover {
+
+.oblako2:hover {
   opacity: 1;
-  transition: all 2s;
 }
-/* как сделать появление картинки по наведению? */
 
-/* @keyframes oblako {
-  0% {
-    background-image: urlurl("../images/oblako2.svg");
-  }
-  100% {
-    background-image: url("../images/oblako.svg");
-  }
-} */
-
-.strelki {
-  animation: strelki 1s ease-in infinite;
-}
 .strelki:hover {
-  animation-play-state: running;
+  transform: rotate(360deg);
+  transition: all 1s ease-in;
 }
-/* Как запускать исключитель на наведению курсора? */
-@keyframes strelki {
-  0% {
-    transform: rotate(0);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
+
 .bulavi {
   animation: bulavi 1.5s linear infinite;
 }
@@ -189,7 +795,7 @@
     background-position: 0 top;
   }
   50% {
-    background-position: -100vw top;
+    background-position: -100% top;
   }
   100% {
     background-position: 0 top;

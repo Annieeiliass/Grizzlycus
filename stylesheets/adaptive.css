@@ -1,0 +1,22 @@
+@media screen and (max-width: 500px) {
+  .section-1 {
+    display: flex;
+    height: 216.425vw;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/firstpic.svg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 200% 216.425vw;
+  }
+  .photos {
+    display: flex;
+    flex-direction: column;
+    align-items: ;
+    gap: 2vw;
+  }
+}

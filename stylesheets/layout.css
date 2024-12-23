@@ -78,7 +78,7 @@ body {
 .photos {
   display: flex;
   flex-direction: column;
-  gap: 1vw;
+  gap: 2vw;
 }
 .photos > div {
   width: 23.5vw;
@@ -97,6 +97,7 @@ body {
 .circle-container {
   width: calc(100% - 23.5vw);
   position: relative;
+  transition: all 5s ease;
 }
 .circle-container,
 .backofcircle,
@@ -114,18 +115,19 @@ body {
 }
 .circle {
   background-image: url("../images/circle.svg");
-  width: 60.3vw;
-  height: 60.3vw;
+  width: 60vw;
+  height: 60vw;
   background-size: contain;
 }
 .shtuka {
   background-image: url("../images/shtuka.svg");
   background-size: contain;
   width: 4.4vw;
-  height: 7.3vw;
+  height: 7.1vw;
   display: flex;
   position: absolute;
-  /* как поднять наверх в нужное место? */
+  top: 0;
+  z-index: 2;
 }
 .centerofcircle {
   background-image: url("../images/centerofcircle.svg");
@@ -175,10 +177,11 @@ body {
 .bear {
   background-image: url("../images/bear15.svg");
   background-size: contain;
-  width: 9.2vw;
-  height: 10vw;
+  width: 12.2vw;
+  height: 13vw;
+  /* можно увеличить размер мишек, чтобы не устать */
   position: absolute;
-  top: -10vw;
+  top: -17vw;
   left: 0;
 }
 
@@ -209,6 +212,7 @@ body {
   width: 39vw;
   height: 36.4vw;
   position: absolute;
+  opacity: 0;
 }
 .bstroke {
   width: 58.4vw;
@@ -216,7 +220,7 @@ body {
   overflow: hidden;
 }
 .bulavi {
-  width: 200%;
+  width: 300%;
   height: 20.2vw;
   overflow: hidden;
 }
