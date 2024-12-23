@@ -13,21 +13,21 @@
   }
 }
 
-.zrachok-1 {
-  animation: zrachok-1 5s ease infinite;
+.zrachok-1,
+.zrachok-2 {
+  animation: zrachok 5s ease infinite;
 }
-@keyframes zrachok-1 {
+@keyframes zrachok {
   0% {
-    transform: translate(50% 0%);
+    transform: translateX(23%);
   }
   50% {
-    transform: translate(100% 0%);
+    transform: translateX(-23%);
   }
   100% {
-    transform: translate(0% 0%);
+    transform: translateX(23%);
   }
 }
-/* не работает анимация зрачков */
 
 .bear:nth-of-type(1) {
   animation: bearFall1 6s ease 1 forwards;
@@ -44,7 +44,7 @@
   }
 }
 .bear:nth-of-type(2) {
-  animation: bearFall2 6s ease 1 forwards 4s;
+  animation: bearFall2 6s ease 1 forwards 2s;
   left: 10vw;
 }
 @keyframes bearFall2 {
@@ -55,5 +55,143 @@
   100% {
     top: calc(100% - 10vw);
     transform: rotate(-500deg);
+  }
+}
+.bear:nth-of-type(3) {
+  animation: bearFall3 6s ease 1 forwards 3s;
+  left: 15vw;
+}
+@keyframes bearFall3 {
+  0% {
+    top: -10vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 10vw);
+    transform: rotate(350deg);
+    margin-bottom: 10%;
+  }
+}
+.bear:nth-of-type(4) {
+  animation: bearFall4 6s ease 1 forwards 1s;
+  left: 10vw;
+}
+@keyframes bearFall4 {
+  0% {
+    top: -10vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 10vw);
+    transform: rotate(620deg);
+  }
+}
+.bear:nth-of-type(5) {
+  animation: bearFall5 6s ease 1 forwards 5s;
+  left: 10vw;
+}
+@keyframes bearFall5 {
+  0% {
+    top: -10vw;
+    transform: rotate(0);
+  }
+  100% {
+    top: calc(100% - 10vw);
+    transform: rotate(120deg);
+    bottom: calc(100%-20vw);
+  }
+}
+.halfofcircle {
+  animation: halfofcircle 1.5s steps(1) infinite;
+}
+@keyframes halfofcircle {
+  0% {
+    background-position: 0 top;
+  }
+  12.5% {
+    background-position: -39vw top;
+  }
+  25% {
+    background-position: -78vw top;
+  }
+  37.5% {
+    background-position: -117vw top;
+  }
+  50% {
+    background-position: -156vw top;
+  }
+  62.5% {
+    background-position: -195vw top;
+  }
+  75% {
+    background-position: -234vw top;
+  }
+  87.5% {
+    background-position: -273vw top;
+  }
+  100% {
+    background-position: -312vw top;
+  }
+}
+.oblako {
+  animation: oblako 120s ease-in infinite;
+}
+.oblako:hover {
+  opacity: 1;
+  transition: all 2s;
+}
+/* как сделать появление картинки по наведению? */
+
+/* @keyframes oblako {
+  0% {
+    background-image: urlurl("../images/oblako2.svg");
+  }
+  100% {
+    background-image: url("../images/oblako.svg");
+  }
+} */
+
+.strelki {
+  animation: strelki 1s ease-in infinite;
+}
+.strelki:hover {
+  animation-play-state: running;
+}
+/* Как запускать исключитель на наведению курсора? */
+@keyframes strelki {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.bulavi {
+  animation: bulavi 1.5s linear infinite;
+}
+@keyframes bulavi {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.podval {
+  animation: podval 3s steps(1) infinite;
+}
+@keyframes podval {
+  0% {
+    background-position: 0 top;
+  }
+  50% {
+    background-position: -100vw top;
+  }
+  100% {
+    background-position: 0 top;
   }
 }

@@ -121,14 +121,17 @@ body {
 .shtuka {
   background-image: url("../images/shtuka.svg");
   background-size: contain;
-  width: 3.5vw;
-  height: 5.8vw;
+  width: 4.4vw;
+  height: 7.3vw;
+  display: flex;
+  position: absolute;
+  /* как поднять наверх в нужное место? */
 }
 .centerofcircle {
   background-image: url("../images/centerofcircle.svg");
   background-size: contain;
-  width: 9.7vw;
-  height: 9.7vw;
+  width: 11.7vw;
+  height: 11.7vw;
   display: flex;
 }
 
@@ -190,7 +193,6 @@ body {
 }
 .column-1 .halfofcircle {
   background-image: url("../images/halfofcircle.svg");
-  background-size: contain;
   width: 19.5vw;
   height: 36.4vw;
 }
@@ -199,7 +201,26 @@ body {
   background-size: contain;
   width: 39vw;
   height: 36.4vw;
+  position: relative;
 }
+.oblako2 {
+  background-image: url("../images/oblako2.svg");
+  background-size: contain;
+  width: 39vw;
+  height: 36.4vw;
+  position: absolute;
+}
+.bstroke {
+  width: 58.4vw;
+  height: 20.2vw;
+  overflow: hidden;
+}
+.bulavi {
+  width: 200%;
+  height: 20.2vw;
+  overflow: hidden;
+}
+
 .column-2 .uno {
   background-image: url("../images/uno.svg");
   background-size: contain;
@@ -210,11 +231,16 @@ body {
   background-image: url("../images/strelki.svg");
   background-size: contain;
   width: 25.2vw;
-  height: 30.9vw;
+  height: 30.8vw;
 }
-.bulavi {
-  background-image: url("../images/bulavi.svg");
-  background-size: contain;
-  width: 58.4vw;
-  height: 20.2vw;
+
+.section-5 {
+  display: flex;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.podval {
+  background-image: url("../images/podval.svg");
+  width: 100vw;
+  height: 33.2vw;
 }
