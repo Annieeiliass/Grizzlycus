@@ -1,22 +1,92 @@
 @media screen and (max-width: 500px) {
   .section-1 {
-    display: flex;
     height: 216.425vw;
     width: 100%;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    background-image: url("../images/firstpic.svg");
+    background-image: url("../images/backforph.svg");
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 200% 216.425vw;
   }
+  .section-2 {
+    height: 216.425vw;
+  }
+  .circle-container {
+    width: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    overflow: hidden;
+  }
+  .photos > div {
+    width: 30.676vw;
+    height: 30.676vw;
+  }
   .photos {
+    flex-direction: row;
+    margin-bottom: -190vw;
+  }
+
+  .section-3 {
+    height: 216.425vw;
+  }
+  /* как с этого момента выстроить их по порядку?
+  .halfofcircle {
+    width: 100vw;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  }
+  .oblako {
+    width: 100vw;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  }
+  .uno {
+    width: 100vw;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  }
+  .bulavi {
+    width: 100vw;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+  } */
+
+  /* как с этого момента выстроить их по порядку? */
+  .section-4 {
+    width: 100vw;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .column-1-row {
     display: flex;
     flex-direction: column;
-    align-items: ;
-    gap: 2vw;
+  }
+  .column-1 {
+    flex-direction: column;
+  }
+  .halfofcircle {
+    width: 100vw;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+  .oblako {
+    width: 100vw;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+  .bulavi {
+    width: 100vw;
+    background-repeat: no-repeat;
+    flex-direction: column;
+  }
+  .column-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .uno {
+    width: 100vw;
+    background-repeat: no-repeat;
+    flex-direction: column;
   }
 }

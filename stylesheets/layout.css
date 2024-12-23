@@ -247,4 +247,5 @@ body {
   background-image: url("../images/podval.svg");
   width: 100vw;
   height: 33.2vw;
+  background-size: cover;
 }
