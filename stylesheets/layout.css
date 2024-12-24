@@ -220,8 +220,8 @@ body {
   overflow: hidden;
 }
 .bulavi {
-  /* background-image: url("../images/bulavi.svg");
-  background-size: contain; */
+  background-image: url("../images/bulavi.svg");
+  background-size: contain;
   width: 300%;
   height: 20.2vw;
   overflow: hidden;
