@@ -75,11 +75,11 @@
     background-repeat: no-repeat;
     flex-direction: column;
   }
-  .bulavi {
+  /* .bulavi {
     width: 100vw;
     background-repeat: no-repeat;
     flex-direction: column;
-  }
+  } */
   .column-2 {
     display: flex;
     flex-direction: column;
